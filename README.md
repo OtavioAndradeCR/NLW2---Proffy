@@ -17,7 +17,7 @@ Projeto realizado durante a [NLW-2](https://rocketseat.com.br/).
     $ cd web    
     $ yarn start 
  
-    ara acessar a página digite manualmente /profile no final do endereço. 
+    Para acessar a página digite manualmente /profile no final do endereço. 
  
 ### Mobile
     $ cd mobile    
