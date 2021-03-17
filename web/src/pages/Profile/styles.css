@@ -1,0 +1,143 @@
+#page-profile {
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-profile main {
+  margin: -1.6rem auto 3.2rem;
+  width: 90%;
+  padding: 1.6rem;
+  background: var(--color-box-base);
+  border-radius: 0.8rem;
+}
+
+#page-profile main header img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+.profileMain header {
+  display: flex;
+  align-items: center;
+}
+
+.profileMain header div {
+  margin-left: 2.4rem;
+}
+
+.title {
+  font: 700 2.4rem Archivo;
+  display: block;
+  color: var(--color-text-title);
+}
+
+.profileMain header div span {
+  font-size: 1.6rem;
+  display: block;
+  margin-top: 0.4rem;
+}
+
+.profileMain p {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.profileMain p span {
+  color: var(--color-primary-light);
+}
+
+.articlesContainer .title {
+  margin-top: 2.6rem;
+}
+
+.videosContainer .title {
+  margin-top: 2.6rem;
+}
+
+.videosContainer article {
+  margin-top: 3.2rem;
+}
+
+.videoTitle {
+  font: 600 1.7rem Poppins;
+  display: block;
+  color: var(--color-primary-light);
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  margin-top: 1rem;
+  /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.articlesContainer ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.articlesContainer ul li a {
+  text-decoration: none;
+  color: var(--color-primary-light);
+  transition: ease 0.5s;
+}
+
+.articlesContainer ul li a:hover {
+  text-decoration: none;
+  color: var(--color-secundary-dark);
+}
+
+.profileMain footer {
+  padding: 3.2rem 2rem;
+  background: var(--color-box-footer);
+  border-top: 1px solid var(--color-line-in-white);
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileMain footer p strong {
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  display: block;
+}
+
+.profileMain footer a {
+  width: 20rem;
+  height: 5.6rem;
+  background: var(--color-secundary);
+  color: var(--color-button-text);
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.4rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.profileMain footer a:hover {
+  background: var(--color-secundary-dark);
+}
+
+@media (min-width: 700px) {
+  #page-profile {
+    max-width: 100%;
+  }
+
+  #page-profile main {
+    max-width: 740px;
+    margin: -3.2rem auto 3.2rem;
+  }
+}
